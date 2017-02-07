@@ -17,13 +17,12 @@
         "textFont": "Raleway",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true
+        "isScrollToTopButton": false
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 9,
-    "versionPublish": "3.11.1",
-    "path": "@PROJECT_PATH@"
+    "uniqCompNum": 7,
+    "versionPublish": "3.11.1"
   },
   "pages": {
     "index.html": {
@@ -48,27 +47,25 @@
               "color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
-              "font-family": "'Oxygen', sans-serif"
+              "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1.35rem"
+              "font-size": "1.85rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.462rem"
+              "font-size": "2.004rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#648286"
+              "background": "#0e0e0e"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#759498!important"
+              "background": "#202020!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#7e9b9f"
+              "background": "#282828"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -94,21 +91,17 @@
               "background-color": "#ffffff"
             },
             ".btn": {
-              "font-size": "14px",
               "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "20px"
             }
           },
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#7e9b9f",
-            "fontSize": "1.35",
-            "fontName": {
-              "name": "Oxygen",
-              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
-              "css": "'Oxygen', sans-serif"
-            },
+            "bgColor": "#282828",
+            "fontSize": "1.85",
+            "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
@@ -132,28 +125,12 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Contact Us</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Contact Us</a></li>"
         },
         {
           "_name": "header1",
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_styles": {
-            ".mbr-section-lead": {
-              "color": "#ffffff",
-              "text-align": "center",
-              "font-size": "12px"
-            },
-            ".btn": {
-              "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
-              "font-size": "20px"
-            },
-            ".mbr-section-title": {
-              "color": "#c1c1c1",
-              "font-size": "24px"
-            }
-          },
           "_anchor": "header1-1",
           "_params": {
             "parallax": true,
@@ -174,9 +151,20 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "Myanmar Hot Models",
-          "text": "This Home Page for mobile phone size. But you can see on Computer Size.<br>Click on Desktop View button and you can see Myanmar hot model girls.<br>Thanks you for visiting out site and we hope you will enjoy.<br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Desktop View</a>"
+          "title": "Myanmar Hot Model",
+          "text": "Farmly welcome to our site. This site is for myanmar hot girls. You can see photos from mobile and desktop view. If you want to change from mobile to computer, Click Desktop View and you can go very easily. Thanks for visiting our new site.",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Desktop View</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "20px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".mbr-section-lead": {
+              "text-align": "center",
+              "font-size": "12px"
+            }
+          }
         },
         {
           "_name": "footer1",
@@ -193,7 +181,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Mobirise."
+          "text": "Copyright (c) 2016 Mobirise."
         },
         {
           "_tags": [
@@ -286,7 +274,7 @@
             "fullWidth": false,
             "showBullets": true
           },
-          "_anchor": "gallery1-4",
+          "_anchor": "gallery1-2",
           "articleLayout": false,
           "allItem": "All"
         }
@@ -294,8 +282,8 @@
     },
     "page1.html": {
       "settings": {
-        "title": "Website Maker Title",
-        "meta_descr": "Website Maker Description"
+        "title": "Site Creator Title",
+        "meta_descr": "Site Creator Description"
       },
       "components": [
         {
@@ -310,27 +298,25 @@
               "color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
-              "font-family": "'Oxygen', sans-serif"
+              "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1.35rem"
+              "font-size": "1.85rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.462rem"
+              "font-size": "2.004rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#648286"
+              "background": "#0e0e0e"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#759498!important"
+              "background": "#202020!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#7e9b9f"
+              "background": "#282828"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -356,21 +342,17 @@
               "background-color": "#ffffff"
             },
             ".btn": {
-              "font-size": "14px",
               "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "20px"
             }
           },
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#7e9b9f",
-            "fontSize": "1.35",
-            "fontName": {
-              "name": "Oxygen",
-              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
-              "css": "'Oxygen', sans-serif"
-            },
+            "bgColor": "#282828",
+            "fontSize": "1.85",
+            "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
@@ -394,8 +376,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Contact Us</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Contact Us</a></li>"
         },
         {
           "_name": "footer1",
@@ -412,24 +394,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Mobirise."
+          "text": "Copyright (c) 2016 Mobirise."
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "header2",
-          "_styles": {
-            "SPAN": {
-              "font-size": "30px"
-            },
-            ".btn": {
-              "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
-              "font-size": "20px"
-            }
-          },
-          "_anchor": "header2-2",
+          "_anchor": "header2-5",
           "_params": {
             "imageSize": 50,
             "parallax": true,
@@ -442,7 +414,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.3,
+            "overlayOpacity": "0.5",
             "overlayColor": "#000",
             "inverse": false,
             "showTitle": true,
@@ -458,7 +430,7 @@
               "link": "",
               "alt": "",
               "title": "",
-              "linkInNewWindow": true
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -472,29 +444,27 @@
               "size": 250
             }
           },
-          "title": "Thanks &nbsp;for visit!",
-          "text": "You can find myanmar model girls with categories .Thanks you<br>for visit our site and &nbsp;we all trying to improve this site .",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Mobile View</a> "
+          "title": "Myanmar Hot Model",
+          "text": "Farmly welcome to our site. This site is for myanmar hot girls. You can see photos from mobile and desktop view. If you want to change from mobile to computer, Click Mobile View and you can go very easily. Thanks for visiting our new site.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MObile View</a>",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "20px"
+            }
+          }
         },
         {
+          "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery1",
+          "_name": "gallery4",
           "_params": {
             "paddingTop": 0,
             "paddingBottom": 0,
             "images": [
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
               {
                 "tags": "Awesome",
                 "playVideo": false,
@@ -503,7 +473,16 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
                 "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+                "caption": "Type caption here"
               },
               {
                 "tags": "Creative",
@@ -560,15 +539,15 @@
                 "caption": "Type caption here"
               }
             ],
-            "spacing": 0,
+            "spacing": 1,
             "showText": false,
             "filter": true,
-            "bgColor": "#FFFFFF",
+            "bgColor": "fff",
             "filterBgColor": false,
             "fullWidth": false,
             "showBullets": true
           },
-          "_anchor": "gallery1-3",
+          "_anchor": "gallery4-6",
           "articleLayout": false,
           "allItem": "All"
         }
